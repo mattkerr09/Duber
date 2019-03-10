@@ -1,0 +1,407 @@
+html {
+    background-color: white;
+}
+/* NAVBAR */
+nav {
+    top: 0;
+    background-color: rgba(0, 117, 25, 0.7);
+    background-size: cover;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    z-index: 1;
+}
+
+.navTitle {
+    color: white;
+    text-decoration: none;
+    font-family: KoHo;
+    font-size: 3vw;
+    font-size: 6vh;
+}
+
+.navLogo {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 8%;
+    padding-left: 100px;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    top: 30%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2.5vh;
+    text-decoration: none;
+    padding-left: 3vw;
+    display:  block;
+    position: relative;
+}
+
+li a:hover {
+    color: rgb(255, 115, 115);
+    font-size: 180%; 
+    text-decoration: none;
+}
+/* LANDING */
+header {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(32, 173, 39);
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+}
+
+.landingIMG {
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.titleContainer {
+    display: block;
+    text-align: center;
+}
+
+.titleImg {
+    min-width: 25vw;
+    max-height: 10vh;
+    margin: 30px auto;
+}
+
+.landingContainer {
+    top: 200px;
+    position: relative;
+}
+
+.landingDescription {
+    display: block;
+    position: relative;
+}
+
+.landingDescription p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    max-width: 50vw;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    font-family: KoHo;
+}
+
+.landingButtons {
+    width: 300px;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+    background-color: white;
+    height: 5vh;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #4CAF50;
+    border-radius: 25px;
+}
+
+.landingButtons:hover {
+    color: rgb(255, 115, 115);
+}
+
+/* MENU */
+.menuTitle {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: KoHo;
+}
+
+.card {
+    border: 1px solid rgb(0, 172, 29);
+    border-radius: 25px;
+    margin-top: 17px;
+  }
+
+img {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+  }
+
+.descriptionContainer {
+    margin: 60px auto 0px auto;
+    padding-left: 10px;
+}
+
+.descriptionTitle {
+    font-size: 45px;
+    font-family: KoHo;
+    /* position: relative; */
+    text-align: center;
+}
+
+.descriptionPrice {
+    font-size: 25px;
+    line-height: 10px;
+    font-weight: 200;
+    padding: 30px;
+    text-align: center;
+    font-family: KoHo;
+}
+
+.button {
+    width: 100px;
+    margin: 0px auto 0px auto;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    background-color: #4CAF50;
+    height: 5vh;
+    font-size: 20px;
+    font-family: KoHo;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: rgb(255, 115, 115);
+}
+/* REWARDS */
+.rewardsTitle {
+    font-size: 50px;
+    font-family: KoHo;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+.rewardsDescription {
+    display: block;
+    position: relative;
+    margin: 0px auto 3px auto;
+    width: 50vw;
+    text-align: center;
+    font-family: KoHo;
+    font-size: 30px;
+    color: rgb(255, 11, 11);
+}
+
+.rewardMarker {
+    margin: 10px 50px;
+    height: 80px;
+    width: 80px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    float: left;
+    position: relative;
+
+}
+
+.rewardImage {
+    background-image: url("https://media3.giphy.com/media/3oKIPEnIVoeC3iq1Y4/giphy.gif");
+    background-size: cover;
+}
+
+.rewardButton {
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px;
+    display: block;
+    text-align: center;
+    background-color: #4CAF50;
+    height: 5vh;
+    font-size: 20px;
+    font-family: KoHo;
+    color: white;
+    border-radius: 25px;
+}
+
+.rewardButton:hover {
+    color: rgb(255, 115, 115);
+}
+/* FOOTER */
+.footerContainer {
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(32, 173, 39);
+    background-size: cover;
+    position: relative;
+    margin: 0px;
+    margin-top: 60px;
+    display: block
+}
+
+
+/* SIGN UP */
+.signup {
+  background-color: rgb(32, 173, 39);
+  margin: 0 auto;
+  width: 400px;
+  padding: 40px;
+  border-radius: 3px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+button[type="submit"]:hover {
+    color: rgb(255, 115, 115);
+}
+
+.signup legend {
+  width: 100%;
+  line-height: 38px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 0 auto 45px;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+input[type="tel"],
+input[type="password"],
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: left;
+  padding: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 3px;
+  background: #fcfcfc;
+  margin: 10px auto 20px;
+  transition: opacity 0.4s;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 117, 25);
+  background: rgb(255, 255, 255);
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+footer {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+}
+
+.signupContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: block;
+    position: relative;
+}
+
+.signUpLogIn {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 25px;
+    display: block;
+}
+/* ORDERS */
+.orderContainer {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.order {
+    border: solid rgba(0, 117, 25, .7) 3px;
+    border-radius: 25px;
+    height: 76vh;
+    margin: 10px;
+}
+
+.orderMarker {
+    height: 30%;
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.orderImage {
+    background-image: url("https://media3.giphy.com/media/3oKIPEnIVoeC3iq1Y4/giphy.gif");
+    background-size: cover;
+}
+
+.orderTitle {
+    position: relative;
+}
+
+.orderDescription {
+    text-align: center;
+    font-size: 5vw;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .title {
+        font-size: 10vh;
+        color: rgb(255, 255, 255);
+        padding-top: 0px;
+        text-align: center;
+    }
+}
+  
